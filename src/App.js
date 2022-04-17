@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { ImBin } from "react-icons/im"
 
-const api_base = 'http://localhost:3001';
+const api_base = 'https://todo-list-mern-jsd.herokuapp.com';
 
 function App() {
 	const [todos, setTodos] = useState([]);
